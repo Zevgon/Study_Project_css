@@ -2,19 +2,42 @@
 
 .footer {
   background-color: white;
-
+  width: 900px;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .footer-links {
   float: right;
+  padding: 10px;
 }
 
-.footer-links li a {
-  color: #eee;
+.footer-links li {
+  display: block;
+
   float: left;
 }
 
+.footer-links li a {
+  color: #aaa;
+  font-size: 14px;
+  border: none;
+  padding: 10px 10px;
+
+}
+
+.footer-links li a:hover {
+  background-color: white;
+  color: black;
+}
+
 .footer-copy {
-  color: #eee;
+  display: block;
+  padding: 20px;
+  color: blue;
+  float: left;
+  color: #aaa;
   font-size: 14px;
 }
